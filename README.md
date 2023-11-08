@@ -1,37 +1,34 @@
-# mt5_gcv_roman_numerals
+# Roman to Numerals
+Le kata **RomanNumerals** consiste à convertir des nombres arabes en chiffres romains. L'objectif est de développer des fonctions qui effectuent cette conversion de manière précise.
 
-1. Introduction
+## Cloner the Repo Git
+Copy this line and paste it any folder of your choice to clone the repository and start working with the project.
+Utilisez une de ces lignes en fonction de la manière dont souhaitez cloner le repo (__ssh__ ou __https__).
+    
+### SSH:
+    git clone git@github.com:adem02/mt5_gcv_roman_numerals.git
+### HTTPS:
+    git clone https://github.com/adem02/mt5_gcv_roman_numerals.git
 
-Le kata "RomanNumerals" consiste à convertir des nombres arabes en chiffres romains. L'objectif est de développer des fonctions qui effectuent cette conversion de manière précise.
+## Structure du projet
+Le code source du projet est organisé de la manière suivante:
+- ```src/``` : Contient le code source.
+- ```tests/``` : Contient les fichiers de tests.
+- ```node_modules/``` : Répertoire des dépendances installées.
+- ```package.json``` : Fichier de configuration npm.
+- ```tsconfig.json``` : Fichier de configuration TypeScript.
+- ```jest.config.js``` : Configuration des tests Jest.
 
-2. Compréhension du Problème
+## Installation
+Après avoir cloné votre __repository__
 
-Pour résoudre ce kata, nous devons comprendre les règles de base de la numération romaine. Par exemple, I représente 1, IV représente 4, V représente 5, XXVIII représente  etc.
-Nous devons également identifier les contraintes du problème, telles que la plage de nombres arabes à prendre en charge.
+1. Placez vous à la racine du projet: ```cd t5_gcv_roman_numerals```
+2. Assurez vous d'avoir le fichier ```package.json``` à la racine du dossier (__t5_gcv_roman_numerals__)
+3. Executez la commande ```npm install``` afin d'installer les dépendances du projet.
 
-3. Planification
+## Lancement
+- Lancer le projet: ```npm run dev```
+- Lancer les tests: ```npm run test```
 
-Nous avons décidé d'aborder ce problème en utilisant une approche basée sur une correspondance entre les nombres arabes et les chiffres romains.
-Nous allons développer une fonctions pour la conversion des nombres arabes en chiffres romains.
 
-
-4. Développement/conception
-
-pour le choix des technologies : nous avont opter utiliser typeScript.
-et pour l'implémentation de la fonction de conversion nous créons la fonction arabicToRoman.
-Afin de valider la précision de la conversion nous avons ecris des tests dans la fonction arabicToRomanTest.
-Pour la gestion du projet nous utilisons trello: https://trello.com/invite/b/0GGqt7Dh/ATTI7986fc1a56487cda95737aba21299a5f537B3349/kataromannumerals
-
-5. Tests
-
-Pour nous assurer de la précision de nos fonctions, nous avons écrit des tests unitaires.
-Nous avons testé les conversions avec une variété de valeurs d'entrée pour nous assurer qu'elles fonctionnent correctement.
-
-6. Résultats
-
-Les tests ont confirmé que nos fonctions produisent les résultats attendus pour une gamme de nombres arabes et de chiffres romains.
-Nous avons réussi à résoudre le kata "RomanNumerals" avec des fonctions précises et efficaces.
-
-6. Documentation
-nous avons mis à disposition une documentation technique pour expliquer comment utiliser les differentes fonctions créer
 
