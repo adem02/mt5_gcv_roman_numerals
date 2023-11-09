@@ -1,6 +1,6 @@
-import {OutOfRangeError} from "./errors/OutOfRangeError.ts";
-import {InvalidTraditionalRomanNumberError} from "./errors/InvalidTraditionalRomanNumberError.ts";
-import {romanNumerals} from "./utils";
+import {OutOfRangeError} from "../errors/OutOfRange.error.ts";
+import {InvalidTraditionalRomanNumberError} from "../errors/InvalidTraditionalRomanNumber.error.ts";
+import {romanNumerals} from "../utils/numeralsConverter.utils.ts";
 
 export class NumeralsConverter
 {

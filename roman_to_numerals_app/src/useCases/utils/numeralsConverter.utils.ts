@@ -13,3 +13,11 @@ export const romanNumerals: Record<string, number> = {
     'IV': 4,
     'I': 1,
 };
+
+
+export enum StrategyToken {
+    ROMAN_TO_ARABIC = 'roman_to_arabic',
+    ARABIC_TO_ROMAN = 'arabic_to_roman'
+}
+
+export type AllowedNumeralTypes = string|number;

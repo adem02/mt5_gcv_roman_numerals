@@ -1,4 +1,4 @@
-import { NumeralsConverter } from '../../src/useCases/NumeralsConverter';
+import { NumeralsConverter } from '../../src/useCases/ConvertNumerals';
 
 describe('NumeralsConverter', () => {
     let converter: NumeralsConverter;
