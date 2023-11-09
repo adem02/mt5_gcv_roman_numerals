@@ -1,0 +1,71 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {
+			"StrategyTokensType": {
+				"type": "string",
+				"enum": [
+					"arabic_to_roman",
+					"roman_to_arabic"
+				]
+			}
+		},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": "api",
+		"version": "1.0.0",
+		"license": {
+			"name": "ISC"
+		},
+		"contact": {}
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/convert/{valueToConvert}": {
+			"get": {
+				"operationId": "Convert",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [
+					{
+						"in": "query",
+						"name": "token",
+						"required": true,
+						"schema": {
+							"$ref": "#/components/schemas/StrategyTokensType"
+						}
+					},
+					{
+						"in": "path",
+						"name": "valueToConvert",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				]
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}
