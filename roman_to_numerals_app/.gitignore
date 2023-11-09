@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-.firebaserc
+#.firebaserc
 .firebase
-firebase.json
+#firebase.json
 dist

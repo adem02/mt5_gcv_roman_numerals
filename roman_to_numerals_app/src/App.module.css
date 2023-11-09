@@ -53,6 +53,12 @@
   margin: 2em 2px;
 }
 
+.error {
+  background-color: #69150e;
+  margin: 1rem;
+  padding: 8px 1.5rem;
+}
+
 .card {
   padding: 2em;
 }
