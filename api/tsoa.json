@@ -1,0 +1,13 @@
+{
+    "entryFile": "src/server.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "controllerPathGlobs": ["src/routes/**/*.controller.ts"],
+    "spec": {
+      "outputDirectory": "./public",
+      "specVersion": 3
+    },
+    "routes": {
+      "routesDir": "./src/frameworks/tsoa-routes",
+      "iocModule": "./src/frameworks/DI/container.ts"
+    }
+}
